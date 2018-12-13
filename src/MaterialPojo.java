@@ -8,7 +8,7 @@ public class MaterialPojo {
 	
 	@Override
 	public boolean equals(Object obj) {
-	    return (obj instanceof MaterialPojo && ((((MaterialPojo) obj).matnrType == this.matnrType) && ((MaterialPojo) obj).supplier == this.supplier));
+	    return (obj instanceof MaterialPojo && ((((MaterialPojo) obj).matnrType.equals(this.matnrType)) && ((MaterialPojo) obj).supplier.equals(this.supplier)));
 	}	
 	
 	public String getMatnrType() {

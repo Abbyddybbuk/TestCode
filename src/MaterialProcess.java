@@ -111,7 +111,6 @@ public class MaterialProcess {
 				finalMaterialList.add(material);
 			}
 		}
-		// TODO Auto-generated method stub
 		return finalMaterialList;
 	}
 }
