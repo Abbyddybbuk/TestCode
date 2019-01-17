@@ -16,11 +16,11 @@ public class Lamda1 {
 		nameList.add("Abhijeet");
 		nameList.add("Ankur");
 		nameList.add("Kanu");
-
+		
 		StringOps calLength = list -> list.size();
 		System.out.println("The size of the list is: " + calLength.StringLength(nameList));
 	}
-
+	
 	@FunctionalInterface
 	interface MathOps {
 		public int operation(int a, int b);
@@ -30,5 +30,4 @@ public class Lamda1 {
 	interface StringOps {
 		public int StringLength(List<String> dataList);
 	}
-
 }
